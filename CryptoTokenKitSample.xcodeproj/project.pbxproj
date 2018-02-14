@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EBF4EC20349AB900E6E7C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBF4EB20349AB900E6E7C5 /* AppDelegate.m */; };
+		84EBF4EF20349AB900E6E7C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBF4EE20349AB900E6E7C5 /* ViewController.m */; };
+		84EBF4F120349AB900E6E7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EBF4F020349AB900E6E7C5 /* Assets.xcassets */; };
+		84EBF4F420349AB900E6E7C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EBF4F220349AB900E6E7C5 /* Main.storyboard */; };
+		84EBF4F720349AB900E6E7C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBF4F620349AB900E6E7C5 /* main.m */; };
+		84EBF50220349ABA00E6E7C5 /* CryptoTokenKitSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBF50120349ABA00E6E7C5 /* CryptoTokenKitSampleTests.m */; };
+		84EBF50D20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBF50C20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84EBF4FE20349ABA00E6E7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EBF4DF20349AB900E6E7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EBF4E620349AB900E6E7C5;
+			remoteInfo = CryptoTokenKitSample;
+		};
+		84EBF50920349ABA00E6E7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EBF4DF20349AB900E6E7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EBF4E620349AB900E6E7C5;
+			remoteInfo = CryptoTokenKitSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84EBF4E720349AB900E6E7C5 /* CryptoTokenKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTokenKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EBF4EA20349AB900E6E7C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84EBF4EB20349AB900E6E7C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84EBF4ED20349AB900E6E7C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84EBF4EE20349AB900E6E7C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84EBF4F020349AB900E6E7C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EBF4F320349AB900E6E7C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EBF4F520349AB900E6E7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EBF4F620349AB900E6E7C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84EBF4F820349AB900E6E7C5 /* CryptoTokenKitSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CryptoTokenKitSample.entitlements; sourceTree = "<group>"; };
+		84EBF4FD20349ABA00E6E7C5 /* CryptoTokenKitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoTokenKitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EBF50120349ABA00E6E7C5 /* CryptoTokenKitSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoTokenKitSampleTests.m; sourceTree = "<group>"; };
+		84EBF50320349ABA00E6E7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EBF50820349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoTokenKitSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EBF50C20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoTokenKitSampleUITests.m; sourceTree = "<group>"; };
+		84EBF50E20349ABA00E6E7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EBF4E420349AB900E6E7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EBF4FA20349ABA00E6E7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EBF50520349ABA00E6E7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84EBF4DE20349AB900E6E7C5 = {
+			isa = PBXGroup;
+			children = (
+				84EBF4E920349AB900E6E7C5 /* CryptoTokenKitSample */,
+				84EBF50020349ABA00E6E7C5 /* CryptoTokenKitSampleTests */,
+				84EBF50B20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests */,
+				84EBF4E820349AB900E6E7C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EBF4E820349AB900E6E7C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EBF4E720349AB900E6E7C5 /* CryptoTokenKitSample.app */,
+				84EBF4FD20349ABA00E6E7C5 /* CryptoTokenKitSampleTests.xctest */,
+				84EBF50820349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EBF4E920349AB900E6E7C5 /* CryptoTokenKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				84EBF4EA20349AB900E6E7C5 /* AppDelegate.h */,
+				84EBF4EB20349AB900E6E7C5 /* AppDelegate.m */,
+				84EBF4ED20349AB900E6E7C5 /* ViewController.h */,
+				84EBF4EE20349AB900E6E7C5 /* ViewController.m */,
+				84EBF4F020349AB900E6E7C5 /* Assets.xcassets */,
+				84EBF4F220349AB900E6E7C5 /* Main.storyboard */,
+				84EBF4F520349AB900E6E7C5 /* Info.plist */,
+				84EBF4F620349AB900E6E7C5 /* main.m */,
+				84EBF4F820349AB900E6E7C5 /* CryptoTokenKitSample.entitlements */,
+			);
+			path = CryptoTokenKitSample;
+			sourceTree = "<group>";
+		};
+		84EBF50020349ABA00E6E7C5 /* CryptoTokenKitSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				84EBF50120349ABA00E6E7C5 /* CryptoTokenKitSampleTests.m */,
+				84EBF50320349ABA00E6E7C5 /* Info.plist */,
+			);
+			path = CryptoTokenKitSampleTests;
+			sourceTree = "<group>";
+		};
+		84EBF50B20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84EBF50C20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.m */,
+				84EBF50E20349ABA00E6E7C5 /* Info.plist */,
+			);
+			path = CryptoTokenKitSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EBF4E620349AB900E6E7C5 /* CryptoTokenKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EBF51120349ABA00E6E7C5 /* Build configuration list for PBXNativeTarget "CryptoTokenKitSample" */;
+			buildPhases = (
+				84EBF4E320349AB900E6E7C5 /* Sources */,
+				84EBF4E420349AB900E6E7C5 /* Frameworks */,
+				84EBF4E520349AB900E6E7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoTokenKitSample;
+			productName = CryptoTokenKitSample;
+			productReference = 84EBF4E720349AB900E6E7C5 /* CryptoTokenKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84EBF4FC20349ABA00E6E7C5 /* CryptoTokenKitSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EBF51420349ABA00E6E7C5 /* Build configuration list for PBXNativeTarget "CryptoTokenKitSampleTests" */;
+			buildPhases = (
+				84EBF4F920349ABA00E6E7C5 /* Sources */,
+				84EBF4FA20349ABA00E6E7C5 /* Frameworks */,
+				84EBF4FB20349ABA00E6E7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EBF4FF20349ABA00E6E7C5 /* PBXTargetDependency */,
+			);
+			name = CryptoTokenKitSampleTests;
+			productName = CryptoTokenKitSampleTests;
+			productReference = 84EBF4FD20349ABA00E6E7C5 /* CryptoTokenKitSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84EBF50720349ABA00E6E7C5 /* CryptoTokenKitSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EBF51720349ABA00E6E7C5 /* Build configuration list for PBXNativeTarget "CryptoTokenKitSampleUITests" */;
+			buildPhases = (
+				84EBF50420349ABA00E6E7C5 /* Sources */,
+				84EBF50520349ABA00E6E7C5 /* Frameworks */,
+				84EBF50620349ABA00E6E7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EBF50A20349ABA00E6E7C5 /* PBXTargetDependency */,
+			);
+			name = CryptoTokenKitSampleUITests;
+			productName = CryptoTokenKitSampleUITests;
+			productReference = 84EBF50820349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EBF4DF20349AB900E6E7C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84EBF4E620349AB900E6E7C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84EBF4FC20349ABA00E6E7C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84EBF4E620349AB900E6E7C5;
+					};
+					84EBF50720349ABA00E6E7C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84EBF4E620349AB900E6E7C5;
+					};
+				};
+			};
+			buildConfigurationList = 84EBF4E220349AB900E6E7C5 /* Build configuration list for PBXProject "CryptoTokenKitSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EBF4DE20349AB900E6E7C5;
+			productRefGroup = 84EBF4E820349AB900E6E7C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EBF4E620349AB900E6E7C5 /* CryptoTokenKitSample */,
+				84EBF4FC20349ABA00E6E7C5 /* CryptoTokenKitSampleTests */,
+				84EBF50720349ABA00E6E7C5 /* CryptoTokenKitSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EBF4E520349AB900E6E7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EBF4F120349AB900E6E7C5 /* Assets.xcassets in Resources */,
+				84EBF4F420349AB900E6E7C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EBF4FB20349ABA00E6E7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EBF50620349ABA00E6E7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EBF4E320349AB900E6E7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EBF4EF20349AB900E6E7C5 /* ViewController.m in Sources */,
+				84EBF4F720349AB900E6E7C5 /* main.m in Sources */,
+				84EBF4EC20349AB900E6E7C5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EBF4F920349ABA00E6E7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EBF50220349ABA00E6E7C5 /* CryptoTokenKitSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EBF50420349ABA00E6E7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EBF50D20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84EBF4FF20349ABA00E6E7C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EBF4E620349AB900E6E7C5 /* CryptoTokenKitSample */;
+			targetProxy = 84EBF4FE20349ABA00E6E7C5 /* PBXContainerItemProxy */;
+		};
+		84EBF50A20349ABA00E6E7C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EBF4E620349AB900E6E7C5 /* CryptoTokenKitSample */;
+			targetProxy = 84EBF50920349ABA00E6E7C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84EBF4F220349AB900E6E7C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EBF4F320349AB900E6E7C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EBF50F20349ABA00E6E7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84EBF51020349ABA00E6E7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84EBF51220349ABA00E6E7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CryptoTokenKitSample/CryptoTokenKitSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoTokenKitSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charismathics.CryptoTokenKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84EBF51320349ABA00E6E7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CryptoTokenKitSample/CryptoTokenKitSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoTokenKitSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charismathics.CryptoTokenKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84EBF51520349ABA00E6E7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoTokenKitSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charismathics.CryptoTokenKitSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoTokenKitSample.app/Contents/MacOS/CryptoTokenKitSample";
+			};
+			name = Debug;
+		};
+		84EBF51620349ABA00E6E7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoTokenKitSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charismathics.CryptoTokenKitSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoTokenKitSample.app/Contents/MacOS/CryptoTokenKitSample";
+			};
+			name = Release;
+		};
+		84EBF51820349ABA00E6E7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoTokenKitSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charismathics.CryptoTokenKitSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CryptoTokenKitSample;
+			};
+			name = Debug;
+		};
+		84EBF51920349ABA00E6E7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoTokenKitSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charismathics.CryptoTokenKitSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CryptoTokenKitSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EBF4E220349AB900E6E7C5 /* Build configuration list for PBXProject "CryptoTokenKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EBF50F20349ABA00E6E7C5 /* Debug */,
+				84EBF51020349ABA00E6E7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EBF51120349ABA00E6E7C5 /* Build configuration list for PBXNativeTarget "CryptoTokenKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EBF51220349ABA00E6E7C5 /* Debug */,
+				84EBF51320349ABA00E6E7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EBF51420349ABA00E6E7C5 /* Build configuration list for PBXNativeTarget "CryptoTokenKitSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EBF51520349ABA00E6E7C5 /* Debug */,
+				84EBF51620349ABA00E6E7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EBF51720349ABA00E6E7C5 /* Build configuration list for PBXNativeTarget "CryptoTokenKitSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EBF51820349ABA00E6E7C5 /* Debug */,
+				84EBF51920349ABA00E6E7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EBF4DF20349AB900E6E7C5 /* Project object */;
+}
