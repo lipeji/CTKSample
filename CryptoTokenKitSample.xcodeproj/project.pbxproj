@@ -14,6 +14,7 @@
 		84EBF4F720349AB900E6E7C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBF4F620349AB900E6E7C5 /* main.m */; };
 		84EBF50220349ABA00E6E7C5 /* CryptoTokenKitSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBF50120349ABA00E6E7C5 /* CryptoTokenKitSampleTests.m */; };
 		84EBF50D20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBF50C20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.m */; };
+		84EBF5212035CC9E00E6E7C5 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84EBF5202035CC9E00E6E7C5 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		84EBF50820349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoTokenKitSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EBF50C20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoTokenKitSampleUITests.m; sourceTree = "<group>"; };
 		84EBF50E20349ABA00E6E7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EBF5202035CC9E00E6E7C5 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				84EBF4F520349AB900E6E7C5 /* Info.plist */,
 				84EBF4F620349AB900E6E7C5 /* main.m */,
 				84EBF4F820349AB900E6E7C5 /* CryptoTokenKitSample.entitlements */,
+				84EBF5202035CC9E00E6E7C5 /* readme.txt */,
 			);
 			path = CryptoTokenKitSample;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EBF5212035CC9E00E6E7C5 /* readme.txt in Resources */,
 				84EBF4F120349AB900E6E7C5 /* Assets.xcassets in Resources */,
 				84EBF4F420349AB900E6E7C5 /* Main.storyboard in Resources */,
 			);
