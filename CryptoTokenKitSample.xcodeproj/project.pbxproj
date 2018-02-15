@@ -86,6 +86,7 @@
 				84EBF50020349ABA00E6E7C5 /* CryptoTokenKitSampleTests */,
 				84EBF50B20349ABA00E6E7C5 /* CryptoTokenKitSampleUITests */,
 				84EBF4E820349AB900E6E7C5 /* Products */,
+				84EBF5202035CC9E00E6E7C5 /* readme.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +112,6 @@
 				84EBF4F520349AB900E6E7C5 /* Info.plist */,
 				84EBF4F620349AB900E6E7C5 /* main.m */,
 				84EBF4F820349AB900E6E7C5 /* CryptoTokenKitSample.entitlements */,
-				84EBF5202035CC9E00E6E7C5 /* readme.txt */,
 			);
 			path = CryptoTokenKitSample;
 			sourceTree = "<group>";
