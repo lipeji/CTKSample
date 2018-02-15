@@ -44,7 +44,7 @@ int main(int argc, const char * argv[]) {
                                
                                // send 2nd APDU
                                NSData *data = [NSData dataWithBytes: nil length: 0];
-                               [card sendIns:0x00 p1:0x00 p2:0x00 data:data le:@200
+                               [card sendIns:0xca p1:0x01 p2:0x82 data:data le:@200
                                        reply:^(NSData *replyData, UInt16 sw, NSError *error)
                                 {
                                     if (error)
