@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "SCard.h"
 
 @implementation ViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,6 +24,12 @@
 
     // Update the view, if already loaded.
 }
+
+- (IBAction)start:(id)sender {
+    NSLog(@"Start!");
+    [[[SCard alloc] init] run];
+}
+
 
 
 @end

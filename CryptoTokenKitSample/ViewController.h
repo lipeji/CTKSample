@@ -11,5 +11,11 @@
 @interface ViewController : NSViewController
 
 
+- (IBAction)start:(id)sender;
+
+@property (weak) IBOutlet NSButton *startButton;
+
+
+
 @end
 
